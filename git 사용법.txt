@@ -1,3 +1,16 @@
-1. 공유하고 싶은 사람 git repository 들어가서 fork클릭
-2. Clone or download 들어가서 url 복사
-3. git clone 붙여넣기
+1. 공유하고 싶은 사람 git repository 들어가서 fork 클릭
+2. Clone or download 들어가서 url 복사 후 로컬 저장소에 clone하기 (git clone 주소.git)
+
+3. 프로젝트 폴더에서 git bash 열기
+4. 문서 작성
+5. git add 문서이름 : 특정한 파일만 올리기
+6. git add . : 모든 파일 올리기
+
+7. git config --local user.name 아이디
+8. git config --local user.email 이메일
+9. git commit -m comment
+
+브랜치 분기하기 : 새로운 복제본 작업 공간 만들기
+git branch 브랜치이름 : 브랜치이름 이라는 이름으로 브랜치 생성
+git checkout 브랜치이름 : 작업공간 변경하기
+git checkout -b 브랜치이름 : 브랜치이름 이라는 이름으로 브랜치를 만들고 작업공간을 브랜치이름으로 변경
